@@ -14,6 +14,16 @@
 		AF60A3371C5FF067003BFF07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF60A3351C5FF067003BFF07 /* LaunchScreen.storyboard */; };
 		AF60A3421C5FF067003BFF07 /* ryanhuebert_showcaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60A3411C5FF067003BFF07 /* ryanhuebert_showcaseTests.swift */; };
 		AF60A34D1C5FF067003BFF07 /* ryanhuebert_showcaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60A34C1C5FF067003BFF07 /* ryanhuebert_showcaseUITests.swift */; };
+		AF60A3621C5FF0BD003BFF07 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF60A35E1C5FF0AF003BFF07 /* NotoSans-Bold.ttf */; };
+		AF60A3631C5FF0BD003BFF07 /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF60A35F1C5FF0AF003BFF07 /* NotoSans-BoldItalic.ttf */; };
+		AF60A3641C5FF0BD003BFF07 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF60A3601C5FF0AF003BFF07 /* NotoSans-Italic.ttf */; };
+		AF60A3651C5FF0BD003BFF07 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF60A3611C5FF0AF003BFF07 /* NotoSans-Regular.ttf */; };
+		AF60A3671C5FF3D5003BFF07 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60A3661C5FF3D5003BFF07 /* MaterialView.swift */; };
+		AF60A3691C5FF421003BFF07 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60A3681C5FF421003BFF07 /* Constants.swift */; };
+		AF60A36C1C5FF58B003BFF07 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60A36B1C5FF58B003BFF07 /* Extensions.swift */; };
+		AF60A36E1C600758003BFF07 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60A36D1C600758003BFF07 /* MaterialButton.swift */; };
+		AF60A3701C6009F0003BFF07 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF60A36F1C6009F0003BFF07 /* MaterialTextField.swift */; };
+		DB2A1DA383C324883C50951B /* Pods_ryanhuebert_showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D309E8B0559CFA975546EA /* Pods_ryanhuebert_showcase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02418EECED67340D740226CE /* Pods-ryanhuebert-showcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ryanhuebert-showcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ryanhuebert-showcase/Pods-ryanhuebert-showcase.debug.xcconfig"; sourceTree = "<group>"; };
+		2ACDC433143152D44DCAA6B9 /* Pods-ryanhuebert-showcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ryanhuebert-showcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-ryanhuebert-showcase/Pods-ryanhuebert-showcase.release.xcconfig"; sourceTree = "<group>"; };
+		81D309E8B0559CFA975546EA /* Pods_ryanhuebert_showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ryanhuebert_showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF60A3291C5FF067003BFF07 /* ryanhuebert-showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ryanhuebert-showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF60A32C1C5FF067003BFF07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF60A32E1C5FF067003BFF07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,15 @@
 		AF60A3481C5FF067003BFF07 /* ryanhuebert-showcaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ryanhuebert-showcaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF60A34C1C5FF067003BFF07 /* ryanhuebert_showcaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ryanhuebert_showcaseUITests.swift; sourceTree = "<group>"; };
 		AF60A34E1C5FF067003BFF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF60A35E1C5FF0AF003BFF07 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		AF60A35F1C5FF0AF003BFF07 /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		AF60A3601C5FF0AF003BFF07 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		AF60A3611C5FF0AF003BFF07 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		AF60A3661C5FF3D5003BFF07 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		AF60A3681C5FF421003BFF07 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AF60A36B1C5FF58B003BFF07 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AF60A36D1C600758003BFF07 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		AF60A36F1C6009F0003BFF07 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB2A1DA383C324883C50951B /* Pods_ryanhuebert_showcase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B109717956039CD90955438 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81D309E8B0559CFA975546EA /* Pods_ryanhuebert_showcase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B40101EF4342294E0B22B5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02418EECED67340D740226CE /* Pods-ryanhuebert-showcase.debug.xcconfig */,
+				2ACDC433143152D44DCAA6B9 /* Pods-ryanhuebert-showcase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AF60A3201C5FF067003BFF07 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				AF60A3401C5FF067003BFF07 /* ryanhuebert-showcaseTests */,
 				AF60A34B1C5FF067003BFF07 /* ryanhuebert-showcaseUITests */,
 				AF60A32A1C5FF067003BFF07 /* Products */,
+				5B40101EF4342294E0B22B5C /* Pods */,
+				2B109717956039CD90955438 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +139,13 @@
 		AF60A32B1C5FF067003BFF07 /* ryanhuebert-showcase */ = {
 			isa = PBXGroup;
 			children = (
+				AF60A36A1C5FF42C003BFF07 /* Util */,
+				AF60A35D1C5FF08F003BFF07 /* Resources */,
+				AF60A35C1C5FF089003BFF07 /* Model */,
+				AF60A35B1C5FF081003BFF07 /* View */,
+				AF60A35A1C5FF07B003BFF07 /* Controller */,
 				AF60A32C1C5FF067003BFF07 /* AppDelegate.swift */,
 				AF60A32E1C5FF067003BFF07 /* ViewController.swift */,
-				AF60A3301C5FF067003BFF07 /* Main.storyboard */,
 				AF60A3331C5FF067003BFF07 /* Assets.xcassets */,
 				AF60A3351C5FF067003BFF07 /* LaunchScreen.storyboard */,
 				AF60A3381C5FF067003BFF07 /* Info.plist */,
@@ -125,6 +171,51 @@
 			path = "ryanhuebert-showcaseUITests";
 			sourceTree = "<group>";
 		};
+		AF60A35A1C5FF07B003BFF07 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AF60A35B1C5FF081003BFF07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF60A3301C5FF067003BFF07 /* Main.storyboard */,
+				AF60A3661C5FF3D5003BFF07 /* MaterialView.swift */,
+				AF60A36D1C600758003BFF07 /* MaterialButton.swift */,
+				AF60A36F1C6009F0003BFF07 /* MaterialTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AF60A35C1C5FF089003BFF07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AF60A35D1C5FF08F003BFF07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF60A35E1C5FF0AF003BFF07 /* NotoSans-Bold.ttf */,
+				AF60A35F1C5FF0AF003BFF07 /* NotoSans-BoldItalic.ttf */,
+				AF60A3601C5FF0AF003BFF07 /* NotoSans-Italic.ttf */,
+				AF60A3611C5FF0AF003BFF07 /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AF60A36A1C5FF42C003BFF07 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AF60A3681C5FF421003BFF07 /* Constants.swift */,
+				AF60A36B1C5FF58B003BFF07 /* Extensions.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF60A3511C5FF067003BFF07 /* Build configuration list for PBXNativeTarget "ryanhuebert-showcase" */;
 			buildPhases = (
+				49E98BD64B27C1F3C39AEFB4 /* Check Pods Manifest.lock */,
 				AF60A3251C5FF067003BFF07 /* Sources */,
 				AF60A3261C5FF067003BFF07 /* Frameworks */,
 				AF60A3271C5FF067003BFF07 /* Resources */,
+				B6BB4E01792361F5397ABB86 /* Embed Pods Frameworks */,
+				6F4ADB635CD3806388578F73 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +323,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF60A3621C5FF0BD003BFF07 /* NotoSans-Bold.ttf in Resources */,
 				AF60A3371C5FF067003BFF07 /* LaunchScreen.storyboard in Resources */,
+				AF60A3631C5FF0BD003BFF07 /* NotoSans-BoldItalic.ttf in Resources */,
+				AF60A3641C5FF0BD003BFF07 /* NotoSans-Italic.ttf in Resources */,
 				AF60A3341C5FF067003BFF07 /* Assets.xcassets in Resources */,
 				AF60A3321C5FF067003BFF07 /* Main.storyboard in Resources */,
+				AF60A3651C5FF0BD003BFF07 /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +349,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49E98BD64B27C1F3C39AEFB4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F4ADB635CD3806388578F73 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ryanhuebert-showcase/Pods-ryanhuebert-showcase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6BB4E01792361F5397ABB86 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ryanhuebert-showcase/Pods-ryanhuebert-showcase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF60A3251C5FF067003BFF07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF60A36C1C5FF58B003BFF07 /* Extensions.swift in Sources */,
+				AF60A3671C5FF3D5003BFF07 /* MaterialView.swift in Sources */,
+				AF60A36E1C600758003BFF07 /* MaterialButton.swift in Sources */,
 				AF60A32F1C5FF067003BFF07 /* ViewController.swift in Sources */,
 				AF60A32D1C5FF067003BFF07 /* AppDelegate.swift in Sources */,
+				AF60A3691C5FF421003BFF07 /* Constants.swift in Sources */,
+				AF60A3701C6009F0003BFF07 /* MaterialTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +548,7 @@
 		};
 		AF60A3521C5FF067003BFF07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02418EECED67340D740226CE /* Pods-ryanhuebert-showcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ryanhuebert-showcase/Info.plist";
@@ -408,6 +560,7 @@
 		};
 		AF60A3531C5FF067003BFF07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ACDC433143152D44DCAA6B9 /* Pods-ryanhuebert-showcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ryanhuebert-showcase/Info.plist";
@@ -484,6 +637,7 @@
 				AF60A3531C5FF067003BFF07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF60A3541C5FF067003BFF07 /* Build configuration list for PBXNativeTarget "ryanhuebert-showcaseTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +646,7 @@
 				AF60A3561C5FF067003BFF07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF60A3571C5FF067003BFF07 /* Build configuration list for PBXNativeTarget "ryanhuebert-showcaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +655,7 @@
 				AF60A3591C5FF067003BFF07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
