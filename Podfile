@@ -6,6 +6,7 @@ use_frameworks!
 target 'ryanhuebert-showcase' do
 pod 'FBSDKCoreKit', '~> 4.9'
 pod 'FBSDKLoginKit', '~> 4.9'
+pod 'Firebase', '>= 2.5.0'
 end
 
 target 'ryanhuebert-showcaseTests' do

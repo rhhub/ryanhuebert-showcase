@@ -87,9 +87,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-ryanhuebert-showcase/Bolts.framework"
   install_framework "Pods-ryanhuebert-showcase/FBSDKCoreKit.framework"
   install_framework "Pods-ryanhuebert-showcase/FBSDKLoginKit.framework"
+  install_framework "Pods-ryanhuebert-showcase/Firebase.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-ryanhuebert-showcase/Bolts.framework"
   install_framework "Pods-ryanhuebert-showcase/FBSDKCoreKit.framework"
   install_framework "Pods-ryanhuebert-showcase/FBSDKLoginKit.framework"
+  install_framework "Pods-ryanhuebert-showcase/Firebase.framework"
 fi

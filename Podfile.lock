@@ -9,14 +9,17 @@ PODS:
     - Bolts (~> 1.5)
   - FBSDKLoginKit (4.9.1):
     - FBSDKCoreKit
+  - Firebase (2.5.0)
 
 DEPENDENCIES:
   - FBSDKCoreKit (~> 4.9)
   - FBSDKLoginKit (~> 4.9)
+  - Firebase (>= 2.5.0)
 
 SPEC CHECKSUMS:
   Bolts: f52a250053bb517ca874523c3913776359ab3def
   FBSDKCoreKit: aee20b6d9855f15b618d4fddd1a5ad45f5a4a59d
   FBSDKLoginKit: ec22dc49bd372b064e93d6773df4ffefb3a552a2
+  Firebase: 744617c0733b45198f9486ebd5cac64ec2d10d79
 
 COCOAPODS: 0.39.0
